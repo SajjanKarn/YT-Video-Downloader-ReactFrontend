@@ -6,7 +6,7 @@ function UrlInput({ urlInput, onInputChange, onClicked }) {
       <input
         className="form-control"
         type="text"
-        placeholder="Enter URL Here.."
+        placeholder="Enter Only Id of the Video! Eg: watch?v= {{ xTN1FdLWmK0 }} "
         onChange={onInputChange}
         value={urlInput}
       />
